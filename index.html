@@ -3,10 +3,26 @@
 <html>
 	<head>
 		<link rel="stylesheet" href="css/style.css">
-		<script type="text/javascript" src="js/timer.js">
+	<script type="text/javascript" src="js/timer.js"></script>
 		<title>imissyou</title>
 	</head>
 	<body>
+
 		<p>welcome to my site!</p>
+		<p id="countdown"></p>
+		<p id="test"></p>
+
+		<script>
+			setInterval(caller,1000);
+
+			function caller(){
+				timer();
+				if (checker()){
+					arrived();
+
+				}
+
+			}
+		</script>
 	</body>
 </html>
