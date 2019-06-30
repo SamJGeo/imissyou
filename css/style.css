@@ -1,3 +1,52 @@
 body {
-	background-color: #FFFF66
+	background-color: #ffffff
+	font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#welcome {
+
+	//border-bottom-style: solid;
+	font-size: 500%;
+	text-align: center;
+	//background-color: #FFFF80;
+	//border-bottom-color: #EB8A44;
+	color: #4d4d4d;
+
+
+
+}
+
+
+
+.wrapper{
+	display: grid;
+	grid-template-columns: 2fr 2fr;
+	grid-gap: 5px;
+}
+
+.countdown_message{
+	grid-column: 2;
+	grid-row: 1;	
+}
+
+.photo_one{
+	grid-column: 1;
+	grid-row: 2;
+}
+
+.photo_two{
+	grid-column: 2;
+	grid-row: 2;
+
+}
+
+#countdown {
+	grid-column: 1;
+	grid-row: 1;
+	color: #000000;
+	//background-color: #FFFF66;
+	font-size: 700%;
+	//position: fixed;
+	left: 0;
 }

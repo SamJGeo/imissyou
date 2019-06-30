@@ -13,7 +13,7 @@ function timer(){
 	var minutes = Math.floor((dist % (1000*60*60)) / (1000*60));
 	var seconds = Math.floor((dist % (1000*60)) / 1000);
 
-	document.getElementById("countdown").innerHTML = days + "d " + hours + "h " + minutes + "m " + seconds + "s";
+	document.getElementById("countdown").innerHTML = days + " : " + hours + " : " + minutes + " : " + seconds;
 
 }
 
