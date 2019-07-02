@@ -14,17 +14,23 @@ body {
 	//background-color: #FFFF80;
 	//border-bottom-color: #EB8A44;
 
-
-
-
 }
 
+
+hr {
+	display: block;
+	height: 1px;
+	border: 0;
+	border-top: 1px solid #b1b4ba;
+	margin: 1em auto;
+	padding: 0;
+}
 
 
 .wrapper{	color: #4d4d4d;
 	display: grid;
 	grid-template-columns: 2fr 2fr;
-	grid-gap: 5px;
+	grid-gap: 5%;
 	grid-template-columns: 50% 50%;
 	grid-column-gap: 30px;
 }
@@ -33,7 +39,7 @@ body {
 	align-self: center;
 	grid-column: 2;
 	grid-row: 1;	
-	grid-row-gap: 5px;
+	grid-row-gap: 5%;
 }
 
 .photo_one{
@@ -52,12 +58,18 @@ body {
 
 }
 
+.photo_desc{
+	margin-left: 40%;
+	margin-right: 35%;
+}
+
 #countdown {
 	grid-column: 1;
 	grid-row: 1;
-	color: #000000;
+	color: red;
 	//background-color: #FFFF66;
-	margin-left: 120px;
+	margin-left: 15%;
+	margin-right: 50%;
 	font-size: 700%;
 	//position: fixed;
 }
