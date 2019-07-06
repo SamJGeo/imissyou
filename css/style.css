@@ -53,6 +53,7 @@ hr {
 	width: auto;
 
 
+
 }
 
 .photo_two img{
@@ -62,6 +63,7 @@ hr {
 	height: auto;
 	max-width: 100%;
 	width: auto;
+	max-height: 40vw;
 
 }
 
