@@ -63,7 +63,6 @@ hr {
 	height: auto;
 	max-width: 100%;
 	width: auto;
-	max-height: 40vw;
 
 }
 
@@ -79,4 +78,10 @@ hr {
 	grid-row: 1;
 	color: #db2727;
 	font-size: 7vw;
+}
+
+.note {
+	border: 2px #b1b4ba;
+
+
 }
