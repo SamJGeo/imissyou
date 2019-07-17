@@ -3,7 +3,8 @@
 <html>
 	<head>
 		<link rel="stylesheet" href="css/style.css">
-	<script type="text/javascript" src="js/timer.js"></script>
+		<script type="text/javascript" src="js/timer.js"></script>
+		<script type="text/javascript" src="js/button.js"></script>
 		<title>imissyou</title>
 	</head>
 	<body>
@@ -32,14 +33,27 @@
 			<div class="countdown_message">Seeing this clock count down is what is keeping me going. <br>Knowing I'll see you when it reaches zero</div>	
 		</div>
 		<hr/>
-		<div class = "photo_desc"> Photos Of The Week:</div>
+		<div class = "main_button" onclick="switch_button()"> Show Note </div>
+		<br>
 		<div class="wrapper">	
 			<div class="photo_one"><img src="static_photos/photo1.jpg" alt="ILOVEYOU" ></div>
 			<div class="photo_two"><img src="static_photos/photo2.JPG" alt="ILOVEYOU" ></div>
 
 		</div>
-		<div class = "note">
+		<div class = "note_wrapper" style="display:none;">
+			<div class = "note">
+				<br>
+				Hi Carmen,<br><br>
+				Considering the Royal Mail can't send letters properly I thought I'd leave you a note here.
+				I have been missing you so much since you left. In case you couldn't tell from the website.
+				This website is starting to properly fill out with some cool stuff that I think you'd like.
+				This isn't the final update however, there's still at least one more to come and potentially
+				some more if I'm good enough to finish it. I am glad that although I'm not with you right now,
+				I'm able to work on this to let you know how much you mean to me.<br>
+				Love, Sam
+				<br><br>
 
+			</div>
 		</div>
 	</body>
 </html>
