@@ -1,28 +1,29 @@
+var counter = 0;
+
 function switch_button(){
 
     var p1 =document.getElementsByClassName("photo_one")[0];
     var p2 =document.getElementsByClassName("photo_two")[0];
     var message = document.getElementsByClassName("main_button")[0];
     var note = document.getElementsByClassName("note_wrapper")[0];
+    var spotify = document.getElementsByClassName("spotify_wrapper")[0];
 
-
-
-    if (p1.style.display === "none"){
-        console.log(p1)
-
+    counter +=1
+    
+    if (counter%3 === 0) {
         p1.style.display = "block";
         p2.style.display = "block";
         note.style.display = "none";
-
-        message.innerHTML = "Show Note";
-    } else {
-        console.log(p1)
-
+        spotify.style.display = "none";
+    } else if (counter%3 === 1){
         p1.style.display = "none";
         p2.style.display = "none";
         note.style.display = "block"
-
-        message.innerHTML = "Show Photos";
-
+        spotify.style.display = "none";
+    } else {
+        p1.style.display = "none";
+        p2.style.display = "none";
+        note.style.display = "none";
+        spotify.style.display = "block";
     }
 }
